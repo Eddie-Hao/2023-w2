@@ -1,0 +1,17 @@
+.text-primary{
+    color: $primary;
+}
+.text-black{
+    color: $black;
+}
+.bg-black{
+    background-color: $black;
+}
+.bg-linear{
+    background: linear-gradient(180deg, rgba(5, 0, 20, 1), rgba(1, 2, 30, 0.89) 100%)
+}
+
+// 文字對齊
+.text-right{
+    text-align: right;
+}

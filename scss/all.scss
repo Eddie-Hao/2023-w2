@@ -1,0 +1,11 @@
+@import '../scss/utilities/variable';
+@import '../scss/base/reset';
+@import '../scss/base/base';
+@import 'component';
+
+// utility
+@import '../scss/utilities/flex';
+@import '../scss/utilities/spacing';
+@import '../scss/utilities/utilities';
+
+@import 'pages';

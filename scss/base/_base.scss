@@ -1,0 +1,41 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+    color: $white;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+// 文字尺寸
+.h1{
+    font-size: 128px;
+}
+.h2{
+    font-size: 64px;
+}
+.fs-1{
+    font-size: 32px;
+}
+.fs-2{
+    font-size: 24px;
+}
+.fs-3{
+    font-size: 20px;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}

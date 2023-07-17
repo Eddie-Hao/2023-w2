@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.h1 {
+  font-size: 128px;
+}
+
+.h2 {
+  font-size: 64px;
+}
+
+.fs-1 {
+  font-size: 32px;
+}
+
+.fs-2 {
+  font-size: 24px;
+}
+
+.fs-3 {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-9 {
+  margin-bottom: 36px;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.mr-4 {
+  margin-right: 16px;
+}
+
+.mr-5 {
+  margin-right: 20px;
+}
+
+.mr-6 {
+  margin-right: 24px;
+}
+
+.mr-8 {
+  margin-right: 32px;
+}
+
+.ml-1 {
+  margin-left: 4px;
+}
+
+.ml-4 {
+  margin-left: 16px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.text-primary {
+  color: #00FFA3;
+}
+
+.text-black {
+  color: #000;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-linear {
+  background: linear-gradient(180deg, rgb(5, 0, 20), rgba(1, 2, 30, 0.89) 100%);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.menu {
+  padding-top: 40px;
+}
+.menu-item {
+  color: #fff;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.menu-item:hover {
+  color: #00FFA3;
+}
+
+.hero {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.hero-content {
+  width: calc(50% - 24px);
+}
+
+.intro, .about, .project {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.bg-intro {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  background-position: center center;
+  background-size: cover;
+}
+
+.intro-content {
+  width: 41.666%;
+}
+
+.about-card {
+  width: 50%;
+  gap: 24px;
+}
+.about-card-item {
+  width: calc(50% - 24px);
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.about-content {
+  width: 41.666%;
+}
+
+.contact {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.contact-link {
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+}
+.contact-link:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.project-title {
+  width: 58.333%;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,73 @@
+.menu{
+    padding-top: 40px;
+    &-item{
+        color: $white;
+        padding-left: 8px;
+        padding-right: 8px;
+        &:hover{
+            color: $primary;
+        }
+    }
+}
+
+.hero{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    &-content{
+        width: calc(50% - 24px);
+    }
+}
+
+.intro,.about,.project{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.bg-intro{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    background-position: center center;
+    background-size: cover;
+}
+.intro-content{
+    width: 41.666%;
+}
+
+.about{
+    &-card{
+        width: 50%;
+        gap: 24px;
+        &-item{
+            width: calc(50% - 24px);
+            padding: 16px;
+            border: 1px solid $gray;
+            box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+        }
+    }
+    &-content{
+        width: 41.666%;
+    }
+}
+
+.contact{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    &-link{
+        border-radius: 40px;
+        box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+        &:hover{
+            box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
+
+.project{
+    &-title{
+        width: 58.333%;
+    }
+}
+
+.footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
